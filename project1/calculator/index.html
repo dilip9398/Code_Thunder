@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+
+<body
+    style='background-color:black; display:flex; height:100vh;align-items:center; justify-content:center; flex-direction:column;'>
+
+    <div style='display:flex; align-items:center; justify-content:center; flex-direction:column;'>
+        <form>
+            <input id="first" required type="number" ; placeholder="Enter a number"
+                style='width:auto; height:30px; margin:10px;'>
+            <input id="second" required type="number" ; placeholder="Enter a number"
+                style='width:auto; height:30px; margin:10px;'>
+        </form>
+        <div>
+            <button id="add" type='submit'
+                style="background-color:green; height:40px; width:50px; font-size:large;">Add</button>
+            <button id="sub" type='submit'
+                style="background-color:red; height:40px; width:auto; font-size:large">Subtract</button>
+            <button id="multiply" type='submit'
+                style="background-color:blue; height:40px; width:auto; font-size:large">Multiply</button>
+            <button id="divide" type='submit'
+                style="background-color:orange; height:40px; width:auto; font-size:large">Divide</button>
+        </div>
+        <h3 style="color:rgb(255,255,255); font-size:50px"> Result is : </h3>
+    </div>
+    <script src=script.js></script>
+</body>
+
+</html>
